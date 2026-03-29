@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>Add Contact</h2>
+
+<form method="POST" class="contact-form">
+
+<input type="text" name="name" placeholder="Enter name" required>
+
+<input type="text" name="phone" placeholder="Enter phone number" required>
+
+<button>Add Contact</button>
+
+</form>
+
+<h2>Contact List</h2>
+
+<div class="card-container">
+
+{% for contact in contacts %}
+
+<div class="card">
+
+<h3>{{contact.name}}</h3>
+
+<p>{{contact.phone}}</p>
+
+<div class="actions">
+
+<a href="/edit/{{loop.index0}}" class="edit">Edit</a>
+
+<a href="/delete/{{loop.index0}}" class="delete">Delete</a>
+
+</div>
+
+</div>
+
+{% endfor %}
+
+</div>
+
+{% endblock %}
