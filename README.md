@@ -1,6 +1,6 @@
 # Contact Book Web Application
 
-A simple Contact Book Web Application developed using **Python Flask, HTML, CSS, and JSON** that allows users to manage their contacts through a web interface.
+A simple Contact Book Web Application developed using Python Flask, HTML, CSS, and JSON that allows users to manage their contacts through a web interface.
 
 ## Use of the Project
 
@@ -24,5 +24,5 @@ This application helps users store and manage contact details efficiently. Users
 
 ## Conclusion
 
-This mini project demonstrates how to build a basic web application using **Flask**. It helps in understanding CRUD operations, Flask routing, HTML templates, and storing data using JSON.
+This mini project demonstrates how to build a basic web application using Flask. It helps in understanding CRUD operations, Flask routing, HTML templates, and storing data using JSON.
 
